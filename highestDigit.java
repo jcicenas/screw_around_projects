@@ -9,7 +9,7 @@ public class highestDigit {
         newscan.close();
     }
 
-
+    //completely works
     private static void alg1(int num){
         
         int counter = 0, counter2 = 0;
@@ -54,7 +54,7 @@ public class highestDigit {
         }
         
     }
-
+    //incomplete
     private static void alg2(int num){
         int nums2 = num , counter = 0, counter2 = 0;
         
@@ -71,8 +71,12 @@ public class highestDigit {
             num = num / 10;
             counter2++;
         }
+
+
         for (int i = 0; i < digitlist.length; i++) {
-            System.out.println(digitlist[i]);
+            if(digitlist[i] > digitlist[digitlist.length-1]){
+
+            }
         }
     }
 }
